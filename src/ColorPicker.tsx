@@ -48,7 +48,7 @@ const ColorPicker: FC<ColorPickerProps> = ({}) => {
   }
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg py-36 px-20 flex gap-24 text-gray-500">
+    <div className="bg-white rounded-2xl md:flex-row flex-col shadow-lg md:py-36 py-16 px-20 flex gap-24 text-gray-500">
       <HexInterface
         randomizeColor={randomizeColor}
         currentColor={hexInputValue}
